@@ -21,8 +21,10 @@ export const Home = () => {
                     </a>
                 </div>
             </div>
-            <div className="w-full md:w-1/2 flex items-center justify-center mt-8 md:mt-0 transform -translate-y-12">
-                <img src="/profile.png" alt="Cameron Cook" className="max-h-[1100px] object-contain" loading="lazy" />
+            <div className="w-full md:w-1/2 flex items-center justify-center mt-8 md:mt-20">
+                <div className="border-4 border-blue-500 p-4 rounded-lg shadow-lg">
+                    <img src="https://i.postimg.cc/13TvYSY8/Adobe-Express-file.png" alt="Cameron Cook" className="max-h-[2000px]" loading="lazy" /> 
+                </div>
             </div>
         </section>
     );
