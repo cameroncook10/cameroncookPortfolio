@@ -43,8 +43,8 @@ export const About = () => {
 
     <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
       <p className="text-lg text-gray-300 mb-6">
-       Passionate Cybersecurity student striving for excellencee, 
-       and knowledge in Information Security and Security Engineering.
+       Passionate Cybersecurity student striving for excellence, 
+       and knowledge of information security, security engineering, and software development.
       </p>
       <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
        <h3 className="text-xl font-bold mb-4"> Technical Skills</h3>
