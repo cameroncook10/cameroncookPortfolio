@@ -43,11 +43,15 @@ export const About = () => {
 
     <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
       <p className="text-lg text-gray-300 mb-6">
+<<<<<<< HEAD
        Passionate Cybersecurity student striving for excellencee, 
+=======
+       Passionate Cybersecurity student striving for excellence, 
+>>>>>>> 0f893ff85bc4319c58ec956a8020fd6d0804a9a4
        and knowledge of information security, security engineering, and software development.
       </p>
       <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-       <h3 className="text-xl font-bold mb-4"> Technical Skills</h3>
+       <h3 className="text-xl font-bold mb-4"> 🖥️Technical Skills</h3>
        <div className="flex flex-wrap gap-2"> 
       {technicalSkills.map((tech,key) => (
          <span
@@ -62,7 +66,7 @@ export const About = () => {
       </div>
        
       <div className="rounded-xl p-6 hover:translate-y-1 transition-all mt-6">
-       <h3 className="text-xl font-bold mb-4"> Certifications</h3>
+       <h3 className="text-xl font-bold mb-4"> ✅Certifications</h3>
        <div className="flex flex-wrap gap-2"> 
       {Certifications.map((tech,key) => (
          <span
